@@ -41,7 +41,7 @@
 		2ED50603B26B0945F14B24AC /* Pods-HPUIViewExtensionsObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPUIViewExtensionsObjC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPUIViewExtensionsObjC_Tests/Pods-HPUIViewExtensionsObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		332E5BB57D30F23D33C0EDBD /* Pods-HPUIViewExtensionsObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPUIViewExtensionsObjC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HPUIViewExtensionsObjC_Example/Pods-HPUIViewExtensionsObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		536DC3BB54A9EEDA1673758A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* HPUIViewExtensionsObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HPUIViewExtensionsObjC.app; path = HPUIViewExtensionsObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* HPUIViewExtensionsObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPUIViewExtensionsObjC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -54,7 +54,7 @@
 		6003F5A5195388D20070C39A /* HPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* HPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = HPUIViewExtensionsObjC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* HPUIViewExtensionsObjC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPUIViewExtensionsObjC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* HPUIViewExtensionsObjC.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* HPUIViewExtensionsObjC_Example.app */,
+				6003F5AE195388D20070C39A /* HPUIViewExtensionsObjC_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,12 +130,12 @@
 		6003F593195388D20070C39A /* Example for HPUIViewExtensionsObjC */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* HPAppDelegate.h */,
-				6003F59D195388D20070C39A /* HPAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HPViewController.h */,
 				6003F5A6195388D20070C39A /* HPViewController.m */,
+				6003F59C195388D20070C39A /* HPAppDelegate.h */,
+				6003F59D195388D20070C39A /* HPAppDelegate.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HPUIViewExtensionsObjC";
@@ -213,7 +213,7 @@
 			);
 			name = HPUIViewExtensionsObjC_Example;
 			productName = HPUIViewExtensionsObjC;
-			productReference = 6003F58A195388D20070C39A /* HPUIViewExtensionsObjC.app */;
+			productReference = 6003F58A195388D20070C39A /* HPUIViewExtensionsObjC_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* HPUIViewExtensionsObjC_Tests */ = {
@@ -234,7 +234,7 @@
 			);
 			name = HPUIViewExtensionsObjC_Tests;
 			productName = HPUIViewExtensionsObjCTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* HPUIViewExtensionsObjC_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */

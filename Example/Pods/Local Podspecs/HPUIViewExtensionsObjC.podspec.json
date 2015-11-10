@@ -1,0 +1,25 @@
+{
+  "name": "HPUIViewExtensionsObjC",
+  "version": "0.1.0",
+  "summary": "A short description of HPUIViewExtensionsObjC.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HPUIViewExtensionsObjC",
+  "license": "MIT",
+  "authors": {
+    "Huy Pham": "huyphamthanh8290@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HPUIViewExtensionsObjC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HPUIViewExtensionsObjC": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

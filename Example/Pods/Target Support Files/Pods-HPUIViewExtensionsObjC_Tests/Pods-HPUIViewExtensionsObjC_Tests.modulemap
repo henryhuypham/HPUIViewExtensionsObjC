@@ -1,0 +1,6 @@
+framework module Pods_HPUIViewExtensionsObjC_Tests {
+  umbrella header "Pods-HPUIViewExtensionsObjC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module HPUIViewExtensionsObjC {
+  umbrella header "HPUIViewExtensionsObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}
