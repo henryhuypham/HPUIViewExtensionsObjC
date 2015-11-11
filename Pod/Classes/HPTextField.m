@@ -82,4 +82,13 @@
     return UIEdgeInsetsInsetRect(bounds, UIEdgeInsetsMake(0, self.paddingStart, 0, self.paddingEnd));
 }
 
+
+#pragma mark Placeholder Color
+
+- (void)setPlaceholderColor:(UIColor *)placeholderColor {
+    _placeholderColor = placeholderColor;
+    NSAttributedString *holderStr = [[NSAttributedString alloc] initWithString:self.placeholder attributes:@{ NSForegroundColorAttributeName : placeholderColor }];
+    self.attributedPlaceholder = holderStr;
+}
+
 @end
