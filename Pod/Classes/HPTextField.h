@@ -29,4 +29,7 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable CGFloat paddingStart;
 @property (nonatomic, assign) IBInspectable CGFloat paddingEnd;
 
+#pragma mark Placeholder
+@property (nonatomic, assign) IBInspectable UIColor *placeholderColor;
+
 @end
