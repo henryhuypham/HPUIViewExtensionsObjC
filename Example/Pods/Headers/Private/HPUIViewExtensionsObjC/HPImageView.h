@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/HPImageView.h
+../../../../../Pod/Classes/ViewExtensions/HPImageView.h

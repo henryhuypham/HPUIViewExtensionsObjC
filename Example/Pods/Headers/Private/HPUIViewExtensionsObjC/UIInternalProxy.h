@@ -1,1 +1,1 @@
-../../../../../Pod/Classes/UIInternalProxy.h
+../../../../../Pod/Classes/Helpers/UIInternalProxy.h

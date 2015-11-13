@@ -111,7 +111,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vt-Dk-mcR" customClass="HPButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vt-Dk-mcR" customClass="HPButton">
                                 <rect key="frame" x="250" y="357" width="100" height="50"/>
                                 <animations/>
                                 <constraints>
@@ -119,7 +119,7 @@
                                     <constraint firstAttribute="width" constant="100" id="opp-8X-686"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
                                     <color key="titleColor" red="0.92331414469999995" green="1" blue="0.62736430919999997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -135,6 +135,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
                                         <color key="value" red="0.94395045229999996" green="0.53901110200000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="DemoImage"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
@@ -159,4 +160,7 @@
             <point key="canvasLocation" x="305" y="433"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="DemoImage" width="200" height="200"/>
+    </resources>
 </document>

@@ -1,16 +1,16 @@
 {
   "name": "HPUIViewExtensionsObjC",
-  "version": "0.1.0",
-  "summary": "A short description of HPUIViewExtensionsObjC.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/HPUIViewExtensionsObjC",
+  "version": "0.1.13",
+  "summary": "Prebuilt UI classes that support often-used UI features.",
+  "description": "Prebuilt UI classes that support often-used UI features; which can help reduce the amount of UI code needed in View Controllers.",
+  "homepage": "https://github.com/huyphamthanh8290/HPUIViewExtensionsObjC",
   "license": "MIT",
   "authors": {
     "Huy Pham": "huyphamthanh8290@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/HPUIViewExtensionsObjC.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/huyphamthanh8290/HPUIViewExtensionsObjC.git",
+    "tag": "0.1.13"
   },
   "platforms": {
     "ios": "7.0"

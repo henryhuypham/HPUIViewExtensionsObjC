@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EBAC6915DE8D24B94DB656DA'
+               BlueprintIdentifier = '0D4F6FDD471BF9FF799B8837'
                BlueprintName = 'HPUIViewExtensionsObjC'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HPUIViewExtensionsObjC.framework'>

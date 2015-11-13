@@ -28,4 +28,7 @@ IB_DESIGNABLE
 #pragma mark Background
 @property (nonatomic, assign) IBInspectable UIColor *bgColor;
 
+#pragma mark Button Image
+@property (nonatomic, assign) IBInspectable UIImage *buttonImage;
+
 @end

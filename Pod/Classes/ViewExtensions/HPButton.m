@@ -77,4 +77,14 @@
     [self setBackgroundImage:[Utils imageWithSolidColor:self.tintColor andSize:self.bounds.size] forState:UIControlStateHighlighted];
 }
 
+
+#pragma mark Button Image
+
+- (void)setButtonImage:(UIImage *)buttonImage {
+    _buttonImage = buttonImage;
+    [[self imageView] setContentMode: UIViewContentModeScaleAspectFit];
+    [self setImage:buttonImage forState:UIControlStateNormal];
+    [self setImage:buttonImage forState:UIControlStateHighlighted];
+}
+
 @end
