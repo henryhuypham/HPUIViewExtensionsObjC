@@ -8,29 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		1572538ED18D2D36BC8EABC8BB230256 /* Pods-HPUIViewExtensionsObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D1A15114039EC2B20C44DBEADB07C2 /* Pods-HPUIViewExtensionsObjC_Example-dummy.m */; };
-		1F2E73D7BD9BB27F148FDB86E9F371A5 /* HPImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D7ED761387D8BCA1F12F6D0ACEFBBFDD /* HPImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3077AA1A9AF93A43F6744A9A7C1D8A58 /* HPButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 268A34641CFFDA72C8C178176F9DDED9 /* HPButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		329621C246C7883996FED44B3B57BC62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		382D0C23F805B6FA959D490F1A955869 /* HPUIViewExtensionsObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96043D4D550DAC8F434A39F8A88C829E /* HPUIViewExtensionsObjC-dummy.m */; };
-		4707B1D63C471B2B55BF457A78BDF0B1 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E20459689095630B456DDE4947DC7E1 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B9DAE1219E80D87E7FFD60618FE0117 /* HPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E219297B84B2BE67525B8D80EE93C7E /* HPLabel.m */; };
-		5E4BF560B420081B7EBE0C74D5A37197 /* HPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A4A995875119C56DCF8F5733F8B31E /* HPTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6152824DC1E6FCEB1F0767F5F1131261 /* HPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 460B59FCCA4E06FC340A9DD82CCEA187 /* HPTextField.m */; };
 		6C50A79C51C7C5713ED4EDB4F20C4DF5 /* Pods-HPUIViewExtensionsObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 827941DE5B7019D11ABF2F42497DE875 /* Pods-HPUIViewExtensionsObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CF6AB4C741330DDA210CB26795F2F59 /* HPView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB887174F17EE296EC94C7E9F04E853F /* HPView.m */; };
 		743E56FC33C031EC75E5C6CBC174A377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		74ABD00B1F15209725E1867AB94284DE /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFAEFC74C82CB13682421815C20BF9F /* Utils.m */; };
 		828B37EF4784AB0B0BB4F829224FAD22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		8312CF79EE5591940C098DBCBBC5B03A /* UIInternalProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CD4009052E5539C3A40A8AE325B7EF /* UIInternalProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87DB237C1BF5F264000E695A /* UIInternalProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB236D1BF5F264000E695A /* UIInternalProxy.h */; };
+		87DB237D1BF5F264000E695A /* UIInternalProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB236E1BF5F264000E695A /* UIInternalProxy.m */; };
+		87DB237E1BF5F264000E695A /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB236F1BF5F264000E695A /* Utils.h */; };
+		87DB237F1BF5F264000E695A /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB23701BF5F264000E695A /* Utils.m */; };
+		87DB23801BF5F264000E695A /* HPButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB23721BF5F264000E695A /* HPButton.h */; };
+		87DB23811BF5F264000E695A /* HPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB23731BF5F264000E695A /* HPButton.m */; };
+		87DB23821BF5F264000E695A /* HPImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB23741BF5F264000E695A /* HPImageView.h */; };
+		87DB23831BF5F264000E695A /* HPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB23751BF5F264000E695A /* HPImageView.m */; };
+		87DB23841BF5F264000E695A /* HPLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB23761BF5F264000E695A /* HPLabel.h */; };
+		87DB23851BF5F264000E695A /* HPLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB23771BF5F264000E695A /* HPLabel.m */; };
+		87DB23861BF5F264000E695A /* HPTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB23781BF5F264000E695A /* HPTextField.h */; };
+		87DB23871BF5F264000E695A /* HPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB23791BF5F264000E695A /* HPTextField.m */; };
+		87DB23881BF5F264000E695A /* HPView.h in Headers */ = {isa = PBXBuildFile; fileRef = 87DB237A1BF5F264000E695A /* HPView.h */; };
+		87DB23891BF5F264000E695A /* HPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DB237B1BF5F264000E695A /* HPView.m */; };
 		892B8228FA2C66B096B9EB6D836E1DAE /* HPUIViewExtensionsObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EECFF611CFAD5ED8AFCFF79B868D7E3 /* HPUIViewExtensionsObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90EF5DF7690DFA90D859B4270BC3A430 /* HPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C35927F426A7897A06D1466F0588470 /* HPButton.m */; };
 		A20FA6CFE75B275FFB1A873526F733C1 /* HPUIViewExtensionsObjC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA37D129E600274B5D82496FCAF02640 /* HPUIViewExtensionsObjC.bundle */; };
-		A7183E3B3AA594D31B70AFCCE4F10242 /* HPView.h in Headers */ = {isa = PBXBuildFile; fileRef = E5330A07EB7EC682C27735117FA3E83C /* HPView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0241C442904565175F92EE4B45CEEA0 /* Pods-HPUIViewExtensionsObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C9AB976626115C487BB97FC43E063 /* Pods-HPUIViewExtensionsObjC_Tests-dummy.m */; };
-		B99CCBF77D940475F39CC570DFCFE196 /* HPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E9A5A314BA6FFA09EA08147FED8FC /* HPImageView.m */; };
 		C3733B393A861E5463E42C7FD18C3A71 /* Pods-HPUIViewExtensionsObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 042A8C6B30DFCB1CB3A8801448E543AE /* Pods-HPUIViewExtensionsObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4CCD286CF9EA255DB53675885C90C37 /* UIInternalProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E09B656C2C07BE847EF3DA64A0E1A60 /* UIInternalProxy.m */; };
-		D6484E9D362A298926AC77637D385D0B /* HPLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D59AEDE1F69FEBDAB5E7A02AADAC06B /* HPLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,29 +64,34 @@
 		0DE0C415C6CFC9B843510DD1C6C25F92 /* Pods-HPUIViewExtensionsObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPUIViewExtensionsObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0FF80269F7CA8B3E11095615E3DBD96C /* HPUIViewExtensionsObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HPUIViewExtensionsObjC.xcconfig; sourceTree = "<group>"; };
 		135B488565745E12ABAE7149873AD3EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E09B656C2C07BE847EF3DA64A0E1A60 /* UIInternalProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIInternalProxy.m; sourceTree = "<group>"; };
-		268A34641CFFDA72C8C178176F9DDED9 /* HPButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HPButton.h; sourceTree = "<group>"; };
 		268EFE00C93916BCDF7B2EF0AA3D2553 /* HPUIViewExtensionsObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HPUIViewExtensionsObjC.modulemap; sourceTree = "<group>"; };
 		2D1A0E399E2609D0D035E08257386161 /* Pods-HPUIViewExtensionsObjC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPUIViewExtensionsObjC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		42D9AD2AF64B6C1C876142EE971F44AB /* Pods-HPUIViewExtensionsObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HPUIViewExtensionsObjC_Tests.modulemap"; sourceTree = "<group>"; };
 		43FCF9339C1B36A291E4885C2760440E /* HPUIViewExtensionsObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPUIViewExtensionsObjC-prefix.pch"; sourceTree = "<group>"; };
-		460B59FCCA4E06FC340A9DD82CCEA187 /* HPTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HPTextField.m; sourceTree = "<group>"; };
 		47ACC0926A728D8A28950009E98D64EE /* Pods-HPUIViewExtensionsObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPUIViewExtensionsObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C35927F426A7897A06D1466F0588470 /* HPButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HPButton.m; sourceTree = "<group>"; };
 		64D1A15114039EC2B20C44DBEADB07C2 /* Pods-HPUIViewExtensionsObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPUIViewExtensionsObjC_Example-dummy.m"; sourceTree = "<group>"; };
-		6D59AEDE1F69FEBDAB5E7A02AADAC06B /* HPLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HPLabel.h; sourceTree = "<group>"; };
 		827941DE5B7019D11ABF2F42497DE875 /* Pods-HPUIViewExtensionsObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HPUIViewExtensionsObjC_Example-umbrella.h"; sourceTree = "<group>"; };
-		8E9E9A5A314BA6FFA09EA08147FED8FC /* HPImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HPImageView.m; sourceTree = "<group>"; };
+		87DB236B1BF5F196000E695A /* HPUIViewExtensionsObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPUIViewExtensionsObjC.h; sourceTree = "<group>"; };
+		87DB236D1BF5F264000E695A /* UIInternalProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInternalProxy.h; sourceTree = "<group>"; };
+		87DB236E1BF5F264000E695A /* UIInternalProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInternalProxy.m; sourceTree = "<group>"; };
+		87DB236F1BF5F264000E695A /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		87DB23701BF5F264000E695A /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		87DB23721BF5F264000E695A /* HPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPButton.h; sourceTree = "<group>"; };
+		87DB23731BF5F264000E695A /* HPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPButton.m; sourceTree = "<group>"; };
+		87DB23741BF5F264000E695A /* HPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPImageView.h; sourceTree = "<group>"; };
+		87DB23751BF5F264000E695A /* HPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPImageView.m; sourceTree = "<group>"; };
+		87DB23761BF5F264000E695A /* HPLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPLabel.h; sourceTree = "<group>"; };
+		87DB23771BF5F264000E695A /* HPLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPLabel.m; sourceTree = "<group>"; };
+		87DB23781BF5F264000E695A /* HPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextField.h; sourceTree = "<group>"; };
+		87DB23791BF5F264000E695A /* HPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextField.m; sourceTree = "<group>"; };
+		87DB237A1BF5F264000E695A /* HPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPView.h; sourceTree = "<group>"; };
+		87DB237B1BF5F264000E695A /* HPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPView.m; sourceTree = "<group>"; };
 		8EECFF611CFAD5ED8AFCFF79B868D7E3 /* HPUIViewExtensionsObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HPUIViewExtensionsObjC-umbrella.h"; sourceTree = "<group>"; };
 		96043D4D550DAC8F434A39F8A88C829E /* HPUIViewExtensionsObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HPUIViewExtensionsObjC-dummy.m"; sourceTree = "<group>"; };
 		964B84C08C196B92D33129E5CFBA19E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E20459689095630B456DDE4947DC7E1 /* Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		9E219297B84B2BE67525B8D80EE93C7E /* HPLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HPLabel.m; sourceTree = "<group>"; };
 		A07A696656D6B1B4EACA273BD5411906 /* Pods_HPUIViewExtensionsObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPUIViewExtensionsObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB887174F17EE296EC94C7E9F04E853F /* HPView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HPView.m; sourceTree = "<group>"; };
 		AC402BF8724EF36A29D122E7E6D545BA /* Pods-HPUIViewExtensionsObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPUIViewExtensionsObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B1CD4009052E5539C3A40A8AE325B7EF /* UIInternalProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIInternalProxy.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C35FDEA346818214A986218A8CD31982 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6991FCC012F2BCFCDA2EFC6F7C2D642 /* Pods-HPUIViewExtensionsObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPUIViewExtensionsObjC_Example-resources.sh"; sourceTree = "<group>"; };
@@ -94,16 +99,12 @@
 		C995C96C2D6956B18A6AC975CA447EB0 /* Pods-HPUIViewExtensionsObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPUIViewExtensionsObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D029CD3A9EDF6E17BA31B8DF7DAA15B7 /* Pods-HPUIViewExtensionsObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HPUIViewExtensionsObjC_Example.modulemap"; sourceTree = "<group>"; };
 		D7245ED03E0EBBD4E658DDDF0078DABD /* Pods-HPUIViewExtensionsObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPUIViewExtensionsObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7ED761387D8BCA1F12F6D0ACEFBBFDD /* HPImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HPImageView.h; sourceTree = "<group>"; };
 		DF0C9AB976626115C487BB97FC43E063 /* Pods-HPUIViewExtensionsObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPUIViewExtensionsObjC_Tests-dummy.m"; sourceTree = "<group>"; };
 		E123E177646826CE48A5991318EF1C8E /* Pods-HPUIViewExtensionsObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPUIViewExtensionsObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E5330A07EB7EC682C27735117FA3E83C /* HPView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HPView.h; sourceTree = "<group>"; };
-		E5A4A995875119C56DCF8F5733F8B31E /* HPTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HPTextField.h; sourceTree = "<group>"; };
 		E7359C6AE8C61D31F4B1FA8A11159AB5 /* Pods-HPUIViewExtensionsObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPUIViewExtensionsObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA37D129E600274B5D82496FCAF02640 /* HPUIViewExtensionsObjC.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPUIViewExtensionsObjC.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F755643095FBDC7108D05528523497DC /* Pods-HPUIViewExtensionsObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPUIViewExtensionsObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F78BFB94DE4BF6DF92174B77A24820E3 /* HPUIViewExtensionsObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPUIViewExtensionsObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFFAEFC74C82CB13682421815C20BF9F /* Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,34 @@
 			);
 			sourceTree = "<group>";
 		};
+		87DB236C1BF5F264000E695A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87DB236D1BF5F264000E695A /* UIInternalProxy.h */,
+				87DB236E1BF5F264000E695A /* UIInternalProxy.m */,
+				87DB236F1BF5F264000E695A /* Utils.h */,
+				87DB23701BF5F264000E695A /* Utils.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		87DB23711BF5F264000E695A /* ViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				87DB237A1BF5F264000E695A /* HPView.h */,
+				87DB237B1BF5F264000E695A /* HPView.m */,
+				87DB23761BF5F264000E695A /* HPLabel.h */,
+				87DB23771BF5F264000E695A /* HPLabel.m */,
+				87DB23781BF5F264000E695A /* HPTextField.h */,
+				87DB23791BF5F264000E695A /* HPTextField.m */,
+				87DB23741BF5F264000E695A /* HPImageView.h */,
+				87DB23751BF5F264000E695A /* HPImageView.m */,
+				87DB23721BF5F264000E695A /* HPButton.h */,
+				87DB23731BF5F264000E695A /* HPButton.m */,
+			);
+			path = ViewExtensions;
+			sourceTree = "<group>";
+		};
 		99B088C5B3EB58C307299C94B439ED18 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,20 +296,9 @@
 		F95B8D91266FA203048871C1C9EBDE22 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9E20459689095630B456DDE4947DC7E1 /* Utils.h */,
-				FFFAEFC74C82CB13682421815C20BF9F /* Utils.m */,
-				B1CD4009052E5539C3A40A8AE325B7EF /* UIInternalProxy.h */,
-				1E09B656C2C07BE847EF3DA64A0E1A60 /* UIInternalProxy.m */,
-				E5330A07EB7EC682C27735117FA3E83C /* HPView.h */,
-				AB887174F17EE296EC94C7E9F04E853F /* HPView.m */,
-				6D59AEDE1F69FEBDAB5E7A02AADAC06B /* HPLabel.h */,
-				9E219297B84B2BE67525B8D80EE93C7E /* HPLabel.m */,
-				E5A4A995875119C56DCF8F5733F8B31E /* HPTextField.h */,
-				460B59FCCA4E06FC340A9DD82CCEA187 /* HPTextField.m */,
-				D7ED761387D8BCA1F12F6D0ACEFBBFDD /* HPImageView.h */,
-				8E9E9A5A314BA6FFA09EA08147FED8FC /* HPImageView.m */,
-				268A34641CFFDA72C8C178176F9DDED9 /* HPButton.h */,
-				5C35927F426A7897A06D1466F0588470 /* HPButton.m */,
+				87DB236B1BF5F196000E695A /* HPUIViewExtensionsObjC.h */,
+				87DB236C1BF5F264000E695A /* Helpers */,
+				87DB23711BF5F264000E695A /* ViewExtensions */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -308,14 +326,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3077AA1A9AF93A43F6744A9A7C1D8A58 /* HPButton.h in Headers */,
-				1F2E73D7BD9BB27F148FDB86E9F371A5 /* HPImageView.h in Headers */,
-				D6484E9D362A298926AC77637D385D0B /* HPLabel.h in Headers */,
-				5E4BF560B420081B7EBE0C74D5A37197 /* HPTextField.h in Headers */,
+				87DB23801BF5F264000E695A /* HPButton.h in Headers */,
+				87DB23881BF5F264000E695A /* HPView.h in Headers */,
+				87DB237E1BF5F264000E695A /* Utils.h in Headers */,
+				87DB23861BF5F264000E695A /* HPTextField.h in Headers */,
+				87DB237C1BF5F264000E695A /* UIInternalProxy.h in Headers */,
+				87DB23841BF5F264000E695A /* HPLabel.h in Headers */,
+				87DB23821BF5F264000E695A /* HPImageView.h in Headers */,
 				892B8228FA2C66B096B9EB6D836E1DAE /* HPUIViewExtensionsObjC-umbrella.h in Headers */,
-				A7183E3B3AA594D31B70AFCCE4F10242 /* HPView.h in Headers */,
-				8312CF79EE5591940C098DBCBBC5B03A /* UIInternalProxy.h in Headers */,
-				4707B1D63C471B2B55BF457A78BDF0B1 /* Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +464,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90EF5DF7690DFA90D859B4270BC3A430 /* HPButton.m in Sources */,
-				B99CCBF77D940475F39CC570DFCFE196 /* HPImageView.m in Sources */,
-				4B9DAE1219E80D87E7FFD60618FE0117 /* HPLabel.m in Sources */,
-				6152824DC1E6FCEB1F0767F5F1131261 /* HPTextField.m in Sources */,
+				87DB23851BF5F264000E695A /* HPLabel.m in Sources */,
+				87DB237F1BF5F264000E695A /* Utils.m in Sources */,
+				87DB23811BF5F264000E695A /* HPButton.m in Sources */,
+				87DB23871BF5F264000E695A /* HPTextField.m in Sources */,
 				382D0C23F805B6FA959D490F1A955869 /* HPUIViewExtensionsObjC-dummy.m in Sources */,
-				6CF6AB4C741330DDA210CB26795F2F59 /* HPView.m in Sources */,
-				D4CCD286CF9EA255DB53675885C90C37 /* UIInternalProxy.m in Sources */,
-				74ABD00B1F15209725E1867AB94284DE /* Utils.m in Sources */,
+				87DB23831BF5F264000E695A /* HPImageView.m in Sources */,
+				87DB23891BF5F264000E695A /* HPView.m in Sources */,
+				87DB237D1BF5F264000E695A /* UIInternalProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
