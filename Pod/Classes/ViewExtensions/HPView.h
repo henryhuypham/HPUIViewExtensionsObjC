@@ -20,9 +20,9 @@ IB_DESIGNABLE
 
 #pragma mark Corner
 @property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
-@property (nonatomic, assign) IBInspectable BOOL topLeftRounded;
-@property (nonatomic, assign) IBInspectable BOOL topRightRounded;
-@property (nonatomic, assign) IBInspectable BOOL bottomLeftRounded;
-@property (nonatomic, assign) IBInspectable BOOL bottomRightRounded;
+@property (nonatomic, assign) IBInspectable BOOL    topLeftRounded;
+@property (nonatomic, assign) IBInspectable BOOL    topRightRounded;
+@property (nonatomic, assign) IBInspectable BOOL    bottomLeftRounded;
+@property (nonatomic, assign) IBInspectable BOOL    bottomRightRounded;
 
 @end
