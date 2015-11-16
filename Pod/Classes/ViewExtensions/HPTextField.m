@@ -79,7 +79,7 @@
 }
 
 - (CGRect)makeRectInset:(CGRect) bounds {
-    return UIEdgeInsetsInsetRect(bounds, UIEdgeInsetsMake(0, self.paddingStart, 0, self.paddingEnd));
+    return UIEdgeInsetsInsetRect(bounds, UIEdgeInsetsMake(self.paddingTop, self.paddingStart, self.paddingBottom, self.paddingEnd));
 }
 
 
