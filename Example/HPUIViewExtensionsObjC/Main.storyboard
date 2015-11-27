@@ -14,11 +14,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PRo-bH-4cN" customClass="HPView">
-                                <rect key="frame" x="180" y="20" width="240" height="60"/>
+                                <rect key="frame" x="40" y="20" width="240" height="60"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -38,7 +38,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hahahaha" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbB-Ya-XrP" customClass="HPLabel">
-                                <rect key="frame" x="240" y="96" width="120" height="30"/>
+                                <rect key="frame" x="100" y="96" width="120" height="30"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -64,7 +64,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Placeholder" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9e9-qD-DGC" customClass="HPTextField">
-                                <rect key="frame" x="200" y="150" width="200" height="40"/>
+                                <rect key="frame" x="60" y="150" width="200" height="40"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -92,7 +92,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Npi-eZ-riq" customClass="HPImageView">
-                                <rect key="frame" x="250" y="229" width="100" height="100"/>
+                                <rect key="frame" x="110" y="229" width="100" height="100"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.30980392156862746" green="0.68235294117647061" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -112,7 +112,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vt-Dk-mcR" customClass="HPButton">
-                                <rect key="frame" x="250" y="357" width="100" height="50"/>
+                                <rect key="frame" x="110" y="357" width="100" height="50"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Wfe-a2-R94"/>
@@ -136,6 +136,7 @@
                                         <color key="value" red="0.94395045229999996" green="0.53901110200000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="image" keyPath="buttonImage" value="DemoImage"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="btImageMode" value="Aspect Fit"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
@@ -154,6 +155,7 @@
                             <constraint firstItem="UbB-Ya-XrP" firstAttribute="top" secondItem="PRo-bH-4cN" secondAttribute="bottom" constant="16" id="ptz-Ln-BV7"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

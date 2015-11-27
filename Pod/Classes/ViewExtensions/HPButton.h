@@ -12,23 +12,25 @@
 IB_DESIGNABLE
 @interface HPButton : UIButton
 
-@property (nonatomic, retain) UIInternalProxy *internalProxy;
+@property (nonatomic, retain) UIInternalProxy           *internalProxy;
 
 #pragma mark Border
-@property (nonatomic, assign) IBInspectable UIColor *borderColor;
-@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
+@property (nonatomic, assign) IBInspectable UIColor     *borderColor;
+@property (nonatomic, assign) IBInspectable CGFloat     borderWidth;
 
 #pragma mark Corner
-@property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
-@property (nonatomic, assign) IBInspectable BOOL    topLeftRounded;
-@property (nonatomic, assign) IBInspectable BOOL    topRightRounded;
-@property (nonatomic, assign) IBInspectable BOOL    bottomLeftRounded;
-@property (nonatomic, assign) IBInspectable BOOL    bottomRightRounded;
+@property (nonatomic, assign) IBInspectable CGFloat     cornerRadius;
+@property (nonatomic, assign) IBInspectable BOOL        topLeftRounded;
+@property (nonatomic, assign) IBInspectable BOOL        topRightRounded;
+@property (nonatomic, assign) IBInspectable BOOL        bottomLeftRounded;
+@property (nonatomic, assign) IBInspectable BOOL        bottomRightRounded;
 
 #pragma mark Background
-@property (nonatomic, assign) IBInspectable UIColor *bgColor;
+@property (nonatomic, assign) IBInspectable UIColor     *bgColor;
 
 #pragma mark Button Image
-@property (nonatomic, assign) IBInspectable UIImage *buttonImage;
+@property (nonatomic, assign) UIViewContentMode         buttonImageMode;
+@property (nonatomic, assign) IBInspectable NSString    *btImageMode;
+@property (nonatomic, assign) IBInspectable UIImage     *buttonImage;
 
 @end

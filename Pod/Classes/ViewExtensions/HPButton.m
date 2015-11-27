@@ -80,9 +80,50 @@
 
 #pragma mark Button Image
 
+- (void)setButtonImageMode:(UIViewContentMode)buttonImageMode {
+    _buttonImageMode = buttonImageMode;
+    self.imageView.contentMode = buttonImageMode;
+}
+
+- (void)setBtImageMode:(NSString *)btImageMode {
+    _btImageMode = btImageMode;
+    
+    NSString *mode = [btImageMode stringByReplacingOccurrencesOfString:@" " withString:@""].lowercaseString;
+    if ([mode isEqualToString:@"bottom"]) {
+        self.buttonImageMode = UIViewContentModeBottom;
+    } else if ([mode isEqualToString:@"bottomleft"]) {
+        self.buttonImageMode = UIViewContentModeBottomLeft;
+    } else if ([mode isEqualToString:@"bottomright"]) {
+        self.buttonImageMode = UIViewContentModeBottomRight;
+    } else if ([mode isEqualToString:@"center"]) {
+        self.buttonImageMode = UIViewContentModeCenter;
+    } else if ([mode isEqualToString:@"left"]) {
+        self.buttonImageMode = UIViewContentModeLeft;
+    } else if ([mode isEqualToString:@"redraw"]) {
+        self.buttonImageMode = UIViewContentModeRedraw;
+    } else if ([mode isEqualToString:@"right"]) {
+        self.buttonImageMode = UIViewContentModeRight;
+    } else if ([mode isEqualToString:@"aspectfill"]) {
+        self.buttonImageMode = UIViewContentModeScaleAspectFill;
+    } else if ([mode isEqualToString:@"aspectfit"]) {
+        self.buttonImageMode = UIViewContentModeScaleAspectFit;
+    } else if ([mode isEqualToString:@"scaletofill"]) {
+        self.buttonImageMode = UIViewContentModeScaleToFill;
+    } else if ([mode isEqualToString:@"top"]) {
+        self.buttonImageMode = UIViewContentModeTop;
+    } else if ([mode isEqualToString:@"topleft"]) {
+        self.buttonImageMode = UIViewContentModeTopLeft;
+    } else if ([mode isEqualToString:@"topright"]) {
+        self.buttonImageMode = UIViewContentModeTopRight;
+    } else {
+        self.buttonImageMode = UIViewContentModeScaleAspectFit;
+    }
+}
+
 - (void)setButtonImage:(UIImage *)buttonImage {
     _buttonImage = buttonImage;
-    [[self imageView] setContentMode: UIViewContentModeScaleAspectFit];
+    [[self imageView] setContentMode: self.buttonImageMode];
+    
     [self setImage:buttonImage forState:UIControlStateNormal];
     [self setImage:buttonImage forState:UIControlStateHighlighted];
 }

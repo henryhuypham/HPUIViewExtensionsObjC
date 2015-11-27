@@ -70,11 +70,14 @@
     
     if (self.topLeftRounded) {
         corner |= UIRectCornerTopLeft;
-    } else if (self.topRightRounded) {
+    }
+    if (self.topRightRounded) {
         corner |= UIRectCornerTopRight;
-    } else if (self.bottomLeftRounded) {
+    }
+    if (self.bottomLeftRounded) {
         corner |= UIRectCornerBottomLeft;
-    } else if (self.bottomRightRounded) {
+    }
+    if (self.bottomRightRounded) {
         corner |= UIRectCornerBottomRight;
     }
     
