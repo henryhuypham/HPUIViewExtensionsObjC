@@ -75,7 +75,7 @@
 }
 
 - (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines {
-    return [super textRectForBounds:bounds limitedToNumberOfLines:numberOfLines];
+    return [super textRectForBounds:[self makeRectInset:bounds] limitedToNumberOfLines:numberOfLines];
 }
 
 - (CGRect)makeRectInset:(CGRect) bounds {
